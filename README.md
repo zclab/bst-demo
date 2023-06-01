@@ -1,2 +1,2 @@
 # bst-demo
-A bulma sphinx theme demo
+A bulma sphinx theme demo site

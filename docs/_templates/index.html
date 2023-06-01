@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{%- block mainbody -%}
+{%- include "back-to-top.html" -%}
+
+<section class="hero  is-fullheight  is-bold"
+    style="background: url('_static/background2.svg') no-repeat center center; background-size: cover;">
+    <div class="hero-body ">
+        <div class="container mt-6">
+            <h1 class="title is-2" style="text-align: right; color: var(--bst-color-text-base);">Bulma Sphinx Theme</h1>
+            <p class="subtitle is-3" style="text-align: right; color: var(--bst-color-text-base);">This is the demo site
+                for Bulma Sphinx Theme</p>
+            <a class="button is-primary is-large is-pulled-right ml-2" href="{{ pathto(root_doc) }}">
+                Get started
+            </a>
+            <a class="button is-link is-outlined is-large is-pulled-right" href="{{ pathto('examples/index') }}">Learn
+                More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- {% block footer %}
+<footer class="footer">
+    {%- include "footer.html" -%}
+</footer>
+{% endblock footer %} -->
+
+{%- endblock mainbody -%}
