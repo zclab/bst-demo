@@ -94,7 +94,7 @@ html_theme_options = {
             "url": "https://docusaurus.io/",
         },
     ],
-    "source_repository": "https://github.com/zclab/bulma-sphinx-theme",
+    "source_repository": "https://github.com/zclab/bst-demo",
     "source_branch": "main",
     "source_directory": "docs/",
     "use_edit_page_button": True,
