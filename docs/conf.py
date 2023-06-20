@@ -17,8 +17,8 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_togglebutton",
     "sphinx_subfigure",
+    "ablog",
     # "myst_parser",
-    # "ablog",
     # "jupyter_sphinx",
     "myst_nb",
     "matplotlib.sphinxext.plot_directive",
@@ -109,29 +109,21 @@ html_theme_options = {
 
 html_context = {"default_mode": "auto"}
 
-# blog_path = "blog"
-# blog_post_pattern = "posts/*/*"
-# blog_authors = {
-#     "zclab": ("子川", "https://github.com/zclab"),
-# }
-
-# html_sidebars = {
-#     "posts/**": [
-#         "ablog/postcard.html",
-#         "ablog/categories.html",
-#         "ablog/tagcloud.html",
-#         "ablog/recentposts.html",
-#     ],
-#     "blog": [
-#         "ablog/categories.html",
-#         "ablog/tagcloud.html",
-#         "ablog/archives.html",
-#         "ablog/recentposts.html",
-#     ],
-#     "blog/**": [
-#         "ablog/categories.html",
-#         "ablog/tagcloud.html",
-#         "ablog/archives.html",
-#         "ablog/recentposts.html",
-#     ],
-# }
+blog_path = "blog"
+blog_post_pattern = "examples/blog/*/*"
+blog_authors = {
+    "zclab": ("子川", "https://github.com/zclab"),
+}
+html_sidebars = {
+    "examples/blog/*": [
+        "sidenav-panel.html",
+        "ablog/postcard.html",
+        "ablog/recentposts.html",
+        "ablog/tagcloud.html",
+        "ablog/categories.html",
+        "ablog/authors.html",
+        "ablog/languages.html",
+        "ablog/locations.html",
+        "ablog/archives.html",
+    ],
+}

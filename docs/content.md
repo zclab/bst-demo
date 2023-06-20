@@ -17,3 +17,9 @@ user_guide/index
 
 examples/index
 ```
+
+```{toctree}
+:hidden:
+
+blog
+```

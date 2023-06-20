@@ -9,4 +9,5 @@ pandas
 ipyleaflet
 xarray
 bulma-sphinx-theme>=0.2.0rc1
+ablog
 # git+https://github.com/zclab/bulma-sphinx-theme
